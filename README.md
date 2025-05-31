@@ -56,13 +56,13 @@ pip install tox
 
 ### 3. 검사 도구 실행
 
-* **모든 검사 도구 실행 (black, isort, mypy, pylint):**
+- **모든 검사 도구 실행 (black, isort, mypy, pylint):**
 
   ```bash
   tox
   ```
 
-* **개별 도구 실행 예시:**
+- **개별 도구 실행 예시:**
 
   ```bash
   tox -e black    # 코드 포맷팅 (black)
@@ -72,11 +72,10 @@ pip install tox
   tox -e lint     # pylint만 실행하는 단축 명령어
   ```
 
-
 ### 4. 설정 커스터마이징
 
-* `pyproject.toml` 내 `[tool.black]`, `[tool.isort]`, `[tool.mypy]`, `[tool.pylint]` 섹션에서 각 도구의 옵션을 수정하세요.
-* 필요 시 `tox.ini`에서 검사 대상 경로나 환경 변수를 조정할 수 있습니다.
+- `pyproject.toml` 내 `[tool.black]`, `[tool.isort]`, `[tool.mypy]`, `[tool.pylint]` 섹션에서 각 도구의 옵션을 수정하세요.
+- 필요 시 `tox.ini`에서 검사 대상 경로나 환경 변수를 조정할 수 있습니다.
 
 ---
 
@@ -91,9 +90,9 @@ pip install tox
 
 ## 추가 참고
 
-* Python 공식 스타일 가이드: [PEP 8](https://pep8.org/)
-* `tox` 공식 문서: [https://tox.readthedocs.io/](https://tox.readthedocs.io/)
-* 각 도구 공식 사이트에서 상세 옵션과 사용법 확인 가능
+- Python 공식 스타일 가이드: [PEP 8](https://pep8.org/)
+- `tox` 공식 문서: [https://tox.readthedocs.io/](https://tox.readthedocs.io/)
+- 각 도구 공식 사이트에서 상세 옵션과 사용법 확인 가능
 
 ---
 
