@@ -1,6 +1,7 @@
 .python-version
 .venv
 .tox
+.idea
 
 
 *.egg-info
