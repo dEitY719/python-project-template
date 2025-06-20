@@ -1,6 +1,6 @@
 # python-project-template
 
-A minimal and standardized Python project template designed to streamline your development workflow by including essential configurations for formatting, linting, and type checking using tools like `black`, `isort`, `mypy`, and `pylint` integrated with `tox`.
+최소한의 구성으로 표준화된 Python 프로젝트 템플릿으로, `black`, `isort`, `mypy`, `pylint`와 같은 도구들을 `tox`와 통합하여 코드 포맷팅, 린팅, 타입 체크를 위한 필수 설정을 포함해 개발 워크플로우를 간소화해줍니다.
 
 ---
 
@@ -96,10 +96,6 @@ pip install tox
 
 ---
 
-## 라이선스
+## 📝 라이선스
 
-MIT License
-
----
-
-> **Note:** 이 템플릿은 지속적으로 업데이트 됩니다. 최신 버전을 유지하여 항상 최신 Python 개발 환경을 유지하세요.
+[MIT 라이선스](LICENSE)
