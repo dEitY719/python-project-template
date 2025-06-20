@@ -1,5 +1,7 @@
 # python-project-template
 
+**[kr-한국어]** | [en-English](README.en.md)
+
 최소한의 구성으로 표준화된 Python 프로젝트 템플릿으로, `black`, `isort`, `mypy`, `pylint`와 같은 도구들을 `tox`와 통합하여 코드 포맷팅, 린팅, 타입 체크를 위한 필수 설정을 포함해 개발 워크플로우를 간소화해줍니다.
 
 ---
@@ -93,6 +95,13 @@ pip install tox
 - Python 공식 스타일 가이드: [PEP 8](https://pep8.org/)
 - `tox` 공식 문서: [https://tox.readthedocs.io/](https://tox.readthedocs.io/)
 - 각 도구 공식 사이트에서 상세 옵션과 사용법 확인 가능
+
+---
+
+## 기여
+이 프로젝트는 모든 개발자의 참여를 환영합니다!
+버그 제보, 기능 제안, 코드 개선 등 다양한 방식으로 참여하실 수 있습니다.
+자세한 기여 방법은 [기여](./CONTRIBUTING.ko.md)  가이드를 참고해 주세요.
 
 ---
 
