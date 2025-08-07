@@ -98,3 +98,45 @@ strict = true # 모든 엄격 모드 활성화 (가장 강력)
 # mypy 검사에서 제외할 디렉터리 및 파일 패턴 (정규 표현식)
 # (?x) 플래그는 정규 표현식 내에서 공백과 주석을 허용하여 가독성을 높입니다.
 exclude = '(?x)( \.venv/ | \.tox/ | \.vscode/ | \.git/ | build/ | config/tox/ )'
+
+
+
+[tool.ruff]
+line-length = 120
+exclude = [
+    ".git",
+    ".tox",
+    ".venv",
+    "build",
+    "dist"
+]
+
+[tool.ruff.lint]
+select = [
+    "E",   # Pycodestyle 에러
+    "F",   # Pyflakes
+    "I",   # isort
+    "W",   # Pycodestyle 경고
+    "N",   # Naming
+    "D",   # Docstrings (선택사항)
+    "UP",  # pyupgrade
+    "PL",  # Pylint
+    "Q",   # Quotes
+    "ANN", # Annotations (선택사항)
+    "TID", # Tidy imports
+    "C4",  # Comprehensions
+    "B",   # Bugbear
+]
+
+
+# 충돌 규칙과 pylint 규칙을 명시적으로 무시
+ignore = [
+    "PLR",  # Pylint Refactoring
+    "PLC",  # Pylint Convention
+    "D203", # no-blank-line-before-class (D211)과 충돌
+    "D212"  # multi-line-summary-second-line (D213)과 충돌
+]
+
+[tool.ruff.format]
+# 포맷터 관련 설정 (라인 길이는 전역 설정을 따름)
+# quote-style = "double"
