@@ -35,14 +35,11 @@ dev = [
 
 [tool.setuptools]
 # src 디렉토리를 패키지 루트로 지정하여 src/your_project_name/ 를 패키지로 인식
-# package-dir = {"" = "src"}
-# py_modules 에 루트에 있는 단일 파이썬 파일 (모듈)들을 명시적으로 추가
-py-modules = ["ex_module"] # TODO: 루트의 .py 파일 이름들을 여기에 추가
+package-dir = {"" = "src"}
 
 
 [tool.setuptools.packages.find]
-# src 디렉토리 내에서만 패키지를 찾도록 설정
-where = ["src"]
+where = ["src"]  # src 디렉토리 내에서만 패키지를 찾도록 설정
 exclude = ["asset*", "config*", "tests*"] # 패키지로 인식하고 싶지 않은 디렉토리들을 명시적으로 제외 (*를 붙여 하위 디렉토리 전체를 제외)
 
 
