@@ -105,7 +105,9 @@ exclude = [
     ".tox",
     ".venv",
     "build",
-    "dist"
+    "dist",
+    "src/jupyter",
+    "**/*.ipynb"
 ]
 
 [tool.ruff.lint]
